@@ -1,0 +1,64 @@
+# Core ML Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+detectron2>=0.6
+tensorflow>=2.13.0
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Deep Learning Utilities
+tqdm>=4.65.0
+albumentations>=1.3.0
+
+# MLOps
+mlflow>=2.7.0
+wandb>=0.15.0
+
+# Tracking and Monitoring
+deep-sort-realtime>=1.3.0
+
+# Alert System
+pygame>=2.5.0
+
+# Web Dashboard
+streamlit>=1.27.0
+plotly>=5.15.0
+
+# Configuration and Logging
+PyYAML>=6.0
+python-dotenv>=1.0.0
+colorlog>=6.7.0
+
+# Database
+sqlite3
+
+# Email
+secure-smtp
+
+# Utilities
+pathlib2>=2.3.0
+requests>=2.31.0
+
+# Development
+jupyter>=1.0.0
+ipykernel>=6.23.0
+black>=23.0.0
+flake8>=6.0.0
+pytest>=7.4.0
+
+# Optional: GPU Support
+# torch-audio>=2.0.0  # For audio processing
+# tensorboard>=2.13.0  # For TensorBoard logging
+# onnxruntime>=1.15.0  # For ONNX model inference
+# openvino>=2023.0.0  # For Intel OpenVINO optimization

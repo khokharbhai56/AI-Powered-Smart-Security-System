@@ -1,0 +1,22 @@
+{"timestamp": "2025-12-12T20:42:53.983114", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:43:12.334257", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:43:12.387607", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "start_monitoring", "line": 372}
+{"timestamp": "2025-12-12T20:43:12.420123", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "monitoring_worker", "line": 275}
+{"timestamp": "2025-12-12T20:43:12.420123", "level": "INFO", "logger": "dashboard", "message": "Monitoring thread started. is_monitoring=True", "module": "app", "function": "start_monitoring", "line": 376}
+{"timestamp": "2025-12-12T20:44:08.125680", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:44:08.970329", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:44:14.658230", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:44:14.724455", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "start_monitoring", "line": 372}
+{"timestamp": "2025-12-12T20:44:14.848338", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "monitoring_worker", "line": 275}
+{"timestamp": "2025-12-12T20:44:14.848338", "level": "INFO", "logger": "dashboard", "message": "Monitoring thread started. is_monitoring=True", "module": "app", "function": "start_monitoring", "line": 376}
+{"timestamp": "2025-12-12T20:48:07.285854", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:57:49.294362", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:58:05.082639", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T20:58:05.101639", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "start_monitoring", "line": 407}
+{"timestamp": "2025-12-12T20:58:05.112640", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "monitoring_worker", "line": 275}
+{"timestamp": "2025-12-12T20:58:05.113641", "level": "INFO", "logger": "dashboard", "message": "Monitoring thread started. is_monitoring=True", "module": "app", "function": "start_monitoring", "line": 411}
+{"timestamp": "2025-12-12T21:00:14.226048", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}
+{"timestamp": "2025-12-12T21:00:14.259104", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "start_monitoring", "line": 407}
+{"timestamp": "2025-12-12T21:00:14.274887", "level": "INFO", "logger": "dashboard", "message": "Starting monitoring with source: 0", "module": "app", "function": "monitoring_worker", "line": 275}
+{"timestamp": "2025-12-12T21:00:14.275654", "level": "INFO", "logger": "dashboard", "message": "Monitoring thread started. is_monitoring=True", "module": "app", "function": "start_monitoring", "line": 411}
+{"timestamp": "2025-12-12T21:00:56.764841", "level": "INFO", "logger": "dashboard", "message": "Detection pipeline initialized successfully", "module": "app", "function": "init_pipeline", "line": 114}

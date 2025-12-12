@@ -1,0 +1,126 @@
+# AI Security System Configuration
+
+# Dataset Paths
+dataset_paths:
+  yolo_data: "data/yolo_dataset"
+  coco: "data/coco"
+  action_data: "data/action_dataset"
+  video_data: "data/videos"
+
+# Model Paths
+model_paths:
+  yolo_model_path: "models/yolov12_security/weights/best.pt"
+  mask_rcnn_model_path: "models/mask_rcnn_output/model_final.pth"
+  cnn_model_path: "models/cnn_action_classifier.pth"
+
+# YOLO Configuration
+yolo_config:
+  epochs: 100
+  batch_size: 16
+  img_size: 640
+  lr: 0.001
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  box: 7.5
+  cls: 0.5
+  dfl: 1.5
+  pose: 12.0
+  kobj: 1.0
+  label_smoothing: 0.0
+  nbs: 64
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  degrees: 0.0
+  translate: 0.1
+  scale: 0.5
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 1.0
+  mixup: 0.0
+  copy_paste: 0.0
+
+# Mask R-CNN Configuration
+mask_rcnn_config:
+  num_workers: 4
+  ims_per_batch: 2
+  base_lr: 0.00025
+  max_iter: 10000
+  steps: [7000, 9000]
+  gamma: 0.1
+
+# CNN Configuration
+cnn_config:
+  epochs: 50
+  batch_size: 32
+  lr: 0.001
+  num_workers: 4
+  patience: 10
+
+# Detection Configuration
+detection_config:
+  confidence_threshold: 0.5
+  iou_threshold: 0.45
+  max_age: 30
+  min_hits: 3
+  auto_resize: true
+  heatmap_resolution: [640, 480]
+
+# Alert Configuration
+alert_config:
+  alert_cooldown: 30  # seconds
+  audio_enabled: true
+  email_enabled: true
+  popup_enabled: true
+  log_to_db: true
+  db_path: "data/security_alerts.db"
+  
+  # SMTP Configuration for Gmail
+  # For Gmail: use smtp.gmail.com:587 with TLS
+  # IMPORTANT: Use App Password, NOT regular password!
+  # Generate App Password at: https://myaccount.google.com/apppasswords
+  # Steps: 1. Enable 2FA on Google Account
+  #        2. Go to apppasswords.google.com
+  #        3. Select Mail and Windows Computer
+  #        4. Copy the 16-character password (remove spaces)
+  #        5. Paste it in email_password field below
+  
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  email_user: "your_email@gmail.com"
+  email_password: "your_16_char_app_password"  # NOT your regular Gmail password!
+  
+  # For other email providers:
+  # Outlook: smtp.outlook.com:587
+  # Yahoo: smtp.mail.yahoo.com:587 (need App Password)
+  # Custom SMTP: configure smtp_server and smtp_port accordingly
+  
+  alert_recipients:
+    - "security_team@company.com"
+    - "admin@company.com"
+
+# MLOps Configuration
+mlops_config:
+  mlflow_tracking_uri: "http://localhost:5000"
+  wandb_project: "ai-security-system"
+  experiment_name: "security_detection"
+
+# Logging Configuration
+logging_config:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: "logs/security_system.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
+
+# System Configuration
+system_config:
+  gpu_memory_fraction: 0.8
+  max_video_fps: 30
+  buffer_size: 100
+  thread_pool_size: 4
